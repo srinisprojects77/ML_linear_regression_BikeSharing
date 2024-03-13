@@ -16,7 +16,8 @@
   Analyse the bikeshare system data with different parameters using ML Linear Regression.I
   - It consists of Data cleaning, mapping, single Linear model testing. Supervised ML model is created and used the Linear regression method for model building.
   - Dummy are variables created (n-1) for season parameter (fall, spring, winter and summer).Casual and registered columns removed since cnt showing the total of these 2 variables. Explained the EDA (Univariate, Bivariate Analysis). Training and test model developed for both single linear model and multi linear model as well.
-  - 
+  - Feature selection done based RFE (Automated) and Manual (p-value, VIF).  
+  - R-square, Adjusted R-square are identified for this model
 - **What is the business probem that your project is trying to solve?**
   Idenfying the parameters that impact the business productivity is such a complex and using python ML Linear regression model, the third party can show the model parameters and their co-efficient impact the business productivity 
 - **What is the dataset that is being used?**
@@ -26,7 +27,10 @@
 
 ## Conclusions
 - **Conclusion 1 from the analysis**
+- Multi Linear regression done and variable parameters identified are
+- Automated & Manual feature selection worth and gave signficiant improvement for building the model.
 - **Conclusion 2 from the analysis**
+-  Expression for the model is cnt = 0.2061 + 0.2378 * yr -0.0596 * holiday + 0.0193 * weekday + 0.0193 * workingday -0.1965 * weathersit  + 0.4640 * atemp -0.1498 * windspeed -0.0989 * spring + 0.0282 * summer + 0.0582 * winter
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
@@ -34,21 +38,19 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Pandas version: 2.0.3
+NumPy version: 1.24.4
+Matplotlib version: 3.7.4
+Seaborn version: 0.13.1
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+The project done based on upgrad lecture and materials
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@srinisprojects77] - feel free to contact me!
 
 
 <!-- Optional -->
