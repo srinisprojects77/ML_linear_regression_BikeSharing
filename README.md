@@ -1,4 +1,4 @@
-# ML Linear Regression Assignment - Boombike bikesharing Anaysis - for Productivity Improvement
+# ML Linear Regression Assignment - BoomBikes bikesharing Anaysis - for Productivity Improvement
 >Bike sharing system is available for the users in such a way they can carry the bike by paying the amount, take it, traveled with this and return to their destination. **BoomBikes** , US=based bike sharing provider uses such system and wanted to analyse the production data from the above system using the third party who analyse this data and give their feedback towards  more productivity of the system.
 
 ## Table of Contents
