@@ -10,19 +10,23 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
+- **Provide general information about your project here.**
   As described above, the third party analyze the data uses a ML Linear Regression model to asses the productivity of bike usage and means identify the identifiers which impact the bike share usage of a customer
-- What is the background of your project?
-  Projecting data 
-- What is the business probem that your project is trying to solve?
-  BoomBikes is ready to undersstand the business 
-- What is the dataset that is being used?
+- **What is the background of your project?**
+  Analyse the bikeshare system data with different parameters using ML Linear Regression.I
+  - It consists of Data cleaning, mapping, single Linear model testing. Supervised ML model is created and used the Linear regression method for model building.
+  - Dummy are variables created (n-1) for season parameter (fall, spring, winter and summer).Casual and registered columns removed since cnt showing the total of these 2 variables. Explained the EDA (Univariate, Bivariate Analysis). Training and test model developed for both single linear model and multi linear model as well.
+  - 
+- **What is the business probem that your project is trying to solve?**
+  Idenfying the parameters that impact the business productivity is such a complex and using python ML Linear regression model, the third party can show the model parameters and their co-efficient impact the business productivity 
+- **What is the dataset that is being used?**
+   2018, 2019 Sales data combining the weather report during time taken. The data of bikeshare counts including registered users and consumed users at different season time
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
+- **Conclusion 1 from the analysis**
+- **Conclusion 2 from the analysis**
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
