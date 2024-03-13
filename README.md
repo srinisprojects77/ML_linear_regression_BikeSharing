@@ -13,7 +13,7 @@
 - **Provide general information about your project here.**
   As described above, the third party analyze the data uses a ML Linear Regression model to asses the productivity of bike usage and means identify the identifiers which impact the bike share usage of a customer
 - **What is the background of your project?**
-  Analyse the bikeshare system data with different parameters using ML Linear Regression.I
+- Analyse the bikeshare system data with different parameters using ML Linear Regression. Total of Casual and registered which is mentioned in 'Cnt' in the data is used as Target variable in this project.
   - It consists of Data cleaning, mapping, single Linear model testing. Supervised ML model is created and used the Linear regression method for model building.
   - Dummy are variables created (n-1) for season parameter (fall, spring, winter and summer).Casual and registered columns removed since cnt showing the total of these 2 variables. Explained the EDA (Univariate, Bivariate Analysis). Training and test model developed for both single linear model and multi linear model as well.
   - Feature selection done based RFE (Automated) and Manual (p-value, VIF).  
@@ -21,7 +21,7 @@
 - **What is the business probem that your project is trying to solve?**
   Idenfying the parameters that impact the business productivity is such a complex and using python ML Linear regression model, the third party can show the model parameters and their co-efficient impact the business productivity 
 - **What is the dataset that is being used?**
-   2018, 2019 Sales data combining the weather report during time taken. The data of bikeshare counts including registered users and consumed users at different season time
+   2018, 2019 Sales data combining the weather report during time taken used in this project. The data of bikeshare counts including registered users and consumed users at different season time is taken for target variable.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
