@@ -27,8 +27,8 @@
 
 ## Conclusions
 - **Conclusion 1 from the analysis**
-- Multi Linear regression done and variable parameters identified are
-- Automated & Manual feature selection worth and gave signficiant improvement for building the model.
+- Multi Linear regression done and variable parameters identified are yr, holiday,weekday,workingday,weathersit,atemp,windspeed,spring,summer and winter
+- Automated & Manual feature selection gave signficiant improvement for building the model.
 - **Conclusion 2 from the analysis**
 -  Expression for the model is cnt = 0.2061 + 0.2378 * yr -0.0596 * holiday + 0.0193 * weekday + 0.0193 * workingday -0.1965 * weathersit  + 0.4640 * atemp -0.1498 * windspeed -0.0989 * spring + 0.0282 * summer + 0.0582 * winter
 - Conclusion 3 from the analysis
