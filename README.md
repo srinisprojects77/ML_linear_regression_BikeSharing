@@ -1,6 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
-
+# ML Linear Regression Assignment - Boombike bikesharing Anaysis - for Productivity Improvement
+>Bike sharing system is available for the users in such a way they can carry the bike by paying the amount, take it, traveled with this and return to their destination. **BoomBikes** , US=based bike sharing provider uses such system and wanted to analyse the production data from the above system using the third party who analyse this data and give their feedback towards  more productivity of the system.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -12,8 +11,11 @@
 
 ## General Information
 - Provide general information about your project here.
+  As described above, the third party analyze the data uses a ML Linear Regression model to asses the productivity of bike usage and means identify the identifiers which impact the bike share usage of a customer
 - What is the background of your project?
+  Projecting data 
 - What is the business probem that your project is trying to solve?
+  BoomBikes is ready to undersstand the business 
 - What is the dataset that is being used?
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
